@@ -16,8 +16,12 @@ export default db.define('servico', {
         type: Sequelize.STRING,
         allowNull: false
     },
-    disponibility:{
+    disponibilidade:{
         type: Sequelize.BOOLEAN,
         allowNull: false
-        },
+    },
+    dataDisponibilidade:{
+        type: Sequelize.DATE,
+        allowNull: false
+    },    
 })
